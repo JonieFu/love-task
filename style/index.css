@@ -2,5 +2,52 @@ header,
 main,
 aside,
 footer {
-  border: 1px solid red;
+  text-align: center;
+}
+
+header,
+footer {
+  padding: 20px;
+}
+
+body {
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+
+header {
+  background-color: #4ed4ed;
+}
+
+main {
+  display: flex;
+  flex-flow: row;
+  flex: 1;
+}
+
+main aside {
+  width: 22vw;
+}
+
+main article {
+  flex: 1;
+}
+
+aside {
+  background-color: #9fc35d;
+  padding: 20px;
+  line-height: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+article {
+  background-color: #f6c60f;
+  padding-top: 20px;
+  line-height: 26px;
+}
+
+footer {
+  background-color: #ffa600;
 }
